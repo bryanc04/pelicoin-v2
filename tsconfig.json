@@ -1,0 +1,21 @@
+{
+    // 컴파일 옵션
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "sourceMap": true,
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+
+    },
+    // 직접 추가
+    // include, exclude를 이용한 추가
+    "include": [
+      "src/**/*",
+      "src/components"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }
